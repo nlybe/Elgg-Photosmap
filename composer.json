@@ -19,7 +19,8 @@
     ],
     "require": {
         "composer/installers": ">=1.0.8",
-        "nlybe/amap_maps_api": "2.9.x"
+        "nlybe/amap_maps_api": "2.9.x",
+        "iionly/tidypics": "2.3.x"
     },
     "extra": {
         "installer-name": "photosmap"
