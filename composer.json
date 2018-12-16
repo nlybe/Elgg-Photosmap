@@ -1,0 +1,27 @@
+{
+    "name": "nlybe/photosmap",
+    "description": "Map of photos uploaded with Tidypics plugin",
+    "type": "elgg-plugin",
+    "keywords": [
+        "elgg",
+        "plugin",
+        "maps",
+        "tidypics"
+    ],
+    "homepage": "https://github.com/nlybe/Elgg-Photosmap",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Nikos Lyberakis",
+            "email": "nikos@lyberakis.gr",
+            "role": "Elgg Developer"
+        }
+    ],
+    "require": {
+        "composer/installers": ">=1.0.8",
+        "nlybe/amap_maps_api": "2.9.x"
+    },
+    "extra": {
+        "installer-name": "photosmap"
+    }
+}
